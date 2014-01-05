@@ -8,6 +8,10 @@
 
 #import <UIKit/UIKit.h>
 
-@interface RPViewController : UIViewController
+@interface RPViewController : UIViewController <UITabBarDelegate, UITableViewDelegate, UITableViewDataSource>{
+    IBOutlet UITableView* _feedTableView;
+    IBOutlet UITabBar* _mainTabBar;
+}
+
 
 @end

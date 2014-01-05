@@ -22,6 +22,21 @@
 		4495039E18757C5D008B3600 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4495037D18757C5D008B3600 /* UIKit.framework */; };
 		449503A618757C5D008B3600 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 449503A418757C5D008B3600 /* InfoPlist.strings */; };
 		449503A818757C5D008B3600 /* RenduPavalaTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 449503A718757C5D008B3600 /* RenduPavalaTests.m */; };
+		449503B31875832A008B3600 /* RPTableCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 449503B21875832A008B3600 /* RPTableCell.m */; };
+		44F7D35318794E1B00781985 /* 320-480.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 44F7D34D18794E1B00781985 /* 320-480.jpg */; };
+		44F7D35418794E1B00781985 /* 640-960.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 44F7D34E18794E1B00781985 /* 640-960.jpg */; };
+		44F7D35518794E1B00781985 /* wire_transfer_120.png in Resources */ = {isa = PBXBuildFile; fileRef = 44F7D35018794E1B00781985 /* wire_transfer_120.png */; };
+		44F7D35618794E1B00781985 /* wire_transfer_58.png in Resources */ = {isa = PBXBuildFile; fileRef = 44F7D35118794E1B00781985 /* wire_transfer_58.png */; };
+		44F7D35718794E1B00781985 /* wire_transfer_80.png in Resources */ = {isa = PBXBuildFile; fileRef = 44F7D35218794E1B00781985 /* wire_transfer_80.png */; };
+		44F7D35A18794E7300781985 /* Default~iphone.png in Resources */ = {isa = PBXBuildFile; fileRef = 44F7D35818794E7300781985 /* Default~iphone.png */; };
+		44F7D35B18794E7300781985 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 44F7D35918794E7300781985 /* Default.png */; };
+		44F7D35D18794EF000781985 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 44F7D35C18794EF000781985 /* Default-568h@2x.png */; };
+		44F7D36518794F4400781985 /* check_128.png in Resources */ = {isa = PBXBuildFile; fileRef = 44F7D35F18794F4400781985 /* check_128.png */; };
+		44F7D36618794F4400781985 /* google_ckeckout_128.png in Resources */ = {isa = PBXBuildFile; fileRef = 44F7D36018794F4400781985 /* google_ckeckout_128.png */; };
+		44F7D36718794F4400781985 /* mastercard_128.png in Resources */ = {isa = PBXBuildFile; fileRef = 44F7D36118794F4400781985 /* mastercard_128.png */; };
+		44F7D36818794F4400781985 /* paypal_128.png in Resources */ = {isa = PBXBuildFile; fileRef = 44F7D36218794F4400781985 /* paypal_128.png */; };
+		44F7D36918794F4400781985 /* visa_128.png in Resources */ = {isa = PBXBuildFile; fileRef = 44F7D36318794F4400781985 /* visa_128.png */; };
+		44F7D36A18794F4400781985 /* wire_transfer_128.png in Resources */ = {isa = PBXBuildFile; fileRef = 44F7D36418794F4400781985 /* wire_transfer_128.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -55,6 +70,22 @@
 		449503A318757C5D008B3600 /* RenduPavalaTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "RenduPavalaTests-Info.plist"; sourceTree = "<group>"; };
 		449503A518757C5D008B3600 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		449503A718757C5D008B3600 /* RenduPavalaTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RenduPavalaTests.m; sourceTree = "<group>"; };
+		449503B11875832A008B3600 /* RPTableCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RPTableCell.h; sourceTree = "<group>"; };
+		449503B21875832A008B3600 /* RPTableCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RPTableCell.m; sourceTree = "<group>"; };
+		44F7D34D18794E1B00781985 /* 320-480.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "320-480.jpg"; sourceTree = "<group>"; };
+		44F7D34E18794E1B00781985 /* 640-960.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "640-960.jpg"; sourceTree = "<group>"; };
+		44F7D35018794E1B00781985 /* wire_transfer_120.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = wire_transfer_120.png; sourceTree = "<group>"; };
+		44F7D35118794E1B00781985 /* wire_transfer_58.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = wire_transfer_58.png; sourceTree = "<group>"; };
+		44F7D35218794E1B00781985 /* wire_transfer_80.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = wire_transfer_80.png; sourceTree = "<group>"; };
+		44F7D35818794E7300781985 /* Default~iphone.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default~iphone.png"; sourceTree = "<group>"; };
+		44F7D35918794E7300781985 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		44F7D35C18794EF000781985 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		44F7D35F18794F4400781985 /* check_128.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = check_128.png; sourceTree = "<group>"; };
+		44F7D36018794F4400781985 /* google_ckeckout_128.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = google_ckeckout_128.png; sourceTree = "<group>"; };
+		44F7D36118794F4400781985 /* mastercard_128.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = mastercard_128.png; sourceTree = "<group>"; };
+		44F7D36218794F4400781985 /* paypal_128.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = paypal_128.png; sourceTree = "<group>"; };
+		44F7D36318794F4400781985 /* visa_128.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = visa_128.png; sourceTree = "<group>"; };
+		44F7D36418794F4400781985 /* wire_transfer_128.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = wire_transfer_128.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -114,6 +145,7 @@
 		4495037F18757C5D008B3600 /* RenduPavala */ = {
 			isa = PBXGroup;
 			children = (
+				44F7D33F187945D900781985 /* data */,
 				4495038818757C5D008B3600 /* RPAppDelegate.h */,
 				4495038918757C5D008B3600 /* RPAppDelegate.m */,
 				4495038B18757C5D008B3600 /* Main_iPhone.storyboard */,
@@ -122,6 +154,8 @@
 				4495039218757C5D008B3600 /* RPViewController.m */,
 				4495039418757C5D008B3600 /* Images.xcassets */,
 				4495038018757C5D008B3600 /* Supporting Files */,
+				449503B11875832A008B3600 /* RPTableCell.h */,
+				449503B21875832A008B3600 /* RPTableCell.m */,
 			);
 			path = RenduPavala;
 			sourceTree = "<group>";
@@ -153,6 +187,51 @@
 				449503A418757C5D008B3600 /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		44F7D33F187945D900781985 /* data */ = {
+			isa = PBXGroup;
+			children = (
+				44F7D35E18794F4400781985 /* content */,
+				44F7D34C18794E1B00781985 /* LaunchImages */,
+				44F7D34F18794E1B00781985 /* icons */,
+			);
+			path = data;
+			sourceTree = "<group>";
+		};
+		44F7D34C18794E1B00781985 /* LaunchImages */ = {
+			isa = PBXGroup;
+			children = (
+				44F7D35C18794EF000781985 /* Default-568h@2x.png */,
+				44F7D35818794E7300781985 /* Default~iphone.png */,
+				44F7D35918794E7300781985 /* Default.png */,
+				44F7D34D18794E1B00781985 /* 320-480.jpg */,
+				44F7D34E18794E1B00781985 /* 640-960.jpg */,
+			);
+			path = LaunchImages;
+			sourceTree = "<group>";
+		};
+		44F7D34F18794E1B00781985 /* icons */ = {
+			isa = PBXGroup;
+			children = (
+				44F7D35018794E1B00781985 /* wire_transfer_120.png */,
+				44F7D35118794E1B00781985 /* wire_transfer_58.png */,
+				44F7D35218794E1B00781985 /* wire_transfer_80.png */,
+			);
+			path = icons;
+			sourceTree = "<group>";
+		};
+		44F7D35E18794F4400781985 /* content */ = {
+			isa = PBXGroup;
+			children = (
+				44F7D35F18794F4400781985 /* check_128.png */,
+				44F7D36018794F4400781985 /* google_ckeckout_128.png */,
+				44F7D36118794F4400781985 /* mastercard_128.png */,
+				44F7D36218794F4400781985 /* paypal_128.png */,
+				44F7D36318794F4400781985 /* visa_128.png */,
+				44F7D36418794F4400781985 /* wire_transfer_128.png */,
+			);
+			path = content;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -232,10 +311,24 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				44F7D35518794E1B00781985 /* wire_transfer_120.png in Resources */,
+				44F7D35A18794E7300781985 /* Default~iphone.png in Resources */,
+				44F7D36818794F4400781985 /* paypal_128.png in Resources */,
+				44F7D36A18794F4400781985 /* wire_transfer_128.png in Resources */,
 				4495039018757C5D008B3600 /* Main_iPad.storyboard in Resources */,
+				44F7D36618794F4400781985 /* google_ckeckout_128.png in Resources */,
+				44F7D35718794E1B00781985 /* wire_transfer_80.png in Resources */,
 				4495039518757C5D008B3600 /* Images.xcassets in Resources */,
+				44F7D35318794E1B00781985 /* 320-480.jpg in Resources */,
+				44F7D35B18794E7300781985 /* Default.png in Resources */,
+				44F7D35418794E1B00781985 /* 640-960.jpg in Resources */,
+				44F7D35D18794EF000781985 /* Default-568h@2x.png in Resources */,
+				44F7D35618794E1B00781985 /* wire_transfer_58.png in Resources */,
 				4495038D18757C5D008B3600 /* Main_iPhone.storyboard in Resources */,
+				44F7D36718794F4400781985 /* mastercard_128.png in Resources */,
 				4495038418757C5D008B3600 /* InfoPlist.strings in Resources */,
+				44F7D36918794F4400781985 /* visa_128.png in Resources */,
+				44F7D36518794F4400781985 /* check_128.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -256,6 +349,7 @@
 			files = (
 				4495038A18757C5D008B3600 /* RPAppDelegate.m in Sources */,
 				4495038618757C5D008B3600 /* main.m in Sources */,
+				449503B31875832A008B3600 /* RPTableCell.m in Sources */,
 				4495039318757C5D008B3600 /* RPViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -331,7 +425,8 @@
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_IDENTITY = "iPhone Distribution: Zynga Game Network Inc";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: Zynga Game Network Inc";
 				COPY_PHASE_STRIP = NO;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_DYNAMIC_NO_PIC = NO;
@@ -371,7 +466,8 @@
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_IDENTITY = "iPhone Distribution: Zynga Game Network Inc";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: Zynga Game Network Inc";
 				COPY_PHASE_STRIP = YES;
 				ENABLE_NS_ASSERTIONS = NO;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
@@ -392,10 +488,10 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "RenduPavala/RenduPavala-Prefix.pch";
 				INFOPLIST_FILE = "RenduPavala/RenduPavala-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -405,10 +501,10 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "RenduPavala/RenduPavala-Prefix.pch";
 				INFOPLIST_FILE = "RenduPavala/RenduPavala-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -475,6 +571,7 @@
 				449503AD18757C5D008B3600 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		449503AE18757C5D008B3600 /* Build configuration list for PBXNativeTarget "RenduPavalaTests" */ = {
 			isa = XCConfigurationList;
@@ -483,6 +580,7 @@
 				449503B018757C5D008B3600 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
