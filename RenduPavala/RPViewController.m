@@ -87,6 +87,7 @@ static NSString *RPFeedCellIdentifier = @"RPFeedCellIdentifier";
 
 
 #pragma mark Table View Delegate
+
 - (BOOL)tableView:(UITableView *)tableView shouldHighlightRowAtIndexPath:(NSIndexPath *)indexPath {
     return NO;
 }
