@@ -39,11 +39,31 @@ static NSString *RPFeedCellIdentifier = @"RPFeedCellIdentifier";
     return urls[index];
 }
 
+//- (void)willRotateToInterfaceOrientation:(UIInterfaceOrientation)toInterfaceOrientation duration:(NSTimeInterval)duration {
+//    [super willRotateToInterfaceOrientation:toInterfaceOrientation duration:duration];
+//    
+//    NSArray* displayedViews= [_feedTableView indexPathsForVisibleRows];
+//    [_feedTableView reloadRowsAtIndexPaths:displayedViews withRowAnimation:UITableViewRowAnimationFade];
+//}
+//
+- (void)didRotateFromInterfaceOrientation:(UIInterfaceOrientation)fromInterfaceOrientation {
+    [super didRotateFromInterfaceOrientation:fromInterfaceOrientation];
+    
+    [_feedTableView reloadData];
+//    NSArray* displayedViews= [_feedTableView indexPathsForVisibleRows];
+//    [_feedTableView reloadRowsAtIndexPaths:displayedViews withRowAnimation:UITableViewRowAnimationFade];
+}
+
+
+
+
 #pragma mark Tab Bar Delegate
 
 - (void) tabBar:(UITabBar *)tabBar didSelectItem:(UITabBarItem *)item {
     NSLog(@"Selected Tab Bar Item!!");
 }
+
+
 
 
 #pragma mark Table View Data Source
@@ -58,6 +78,7 @@ static NSString *RPFeedCellIdentifier = @"RPFeedCellIdentifier";
     // Configure Cell
     RPTableCell *feedView = (RPTableCell*)[cell.contentView viewWithTag:100];
     [feedView setHeaderText:[NSString stringWithFormat:@"Header %d",[indexPath row]]];
+    [cell.contentView layoutIfNeeded];
     
     NSString* url = [self getRandomIconUrl];
     [feedView setIcon:url];
@@ -73,6 +94,9 @@ static NSString *RPFeedCellIdentifier = @"RPFeedCellIdentifier";
     
     // add rounded corners
     feedView.layer.cornerRadius = 10.0f;
+    
+    // do auto layout if needed
+    [cell layoutIfNeeded];
     
     return cell;
 }
