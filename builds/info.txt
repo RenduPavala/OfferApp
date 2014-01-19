@@ -1,0 +1,1 @@
+This holds info about the client and server build scripts and build process.
