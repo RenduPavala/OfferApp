@@ -7,11 +7,14 @@
 //
 
 #import <UIKit/UIKit.h>
+#import <CoreData/CoreData.h>
 
-@interface RPViewController : UIViewController <UITabBarDelegate, UITableViewDelegate, UITableViewDataSource>{
+@interface RPViewController : UIViewController <UITabBarDelegate, UITableViewDelegate, UITableViewDataSource, NSFetchedResultsControllerDelegate>{
     IBOutlet UITableView* _feedTableView;
     IBOutlet UITabBar* _mainTabBar;
 }
 
+@property (strong, nonatomic) NSFetchedResultsController *fetchedResultsController;
+@property (readonly, strong, nonatomic) NSManagedObjectContext *managedObjectContext;
 
 @end
