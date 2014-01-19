@@ -8,7 +8,7 @@
 
 #import "RPAppDelegate.h"
 #import "RpDBKeys.h"
-#import "RPModelEntityData.h"
+#import "src/DB/RPModelEntityData.h"
 
 @implementation RPAppDelegate
 @synthesize RPManagedObjectContext = _managedObjectContext;
